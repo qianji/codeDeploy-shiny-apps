@@ -24,4 +24,4 @@ os: linux
 #   may cause associated deployments to fail.
 files:
   - source: data-analysis-shiny
-    destination: /srv/shinyapps
+    destination: /srv/shinyapps/data-analysis-shiny
