@@ -2,3 +2,5 @@
 cd /srv/shiny-server
 rm -rf /srv/shiny-server/codeDeploy-shiny-apps
 git clone https://github.com/qianji/codeDeploy-shiny-apps /srv/shiny-server/codeDeploy-shiny-apps
+rm -rf /srv/shiny-server/data-analysis-shiny
+mv /srv/shiny-server/codeDeploy-shiny-apps/data-analysis-shiny /srv/shiny-server/data-analysis-shiny
