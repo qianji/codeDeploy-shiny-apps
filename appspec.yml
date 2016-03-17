@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
-files:
-  - source: /data-analysis-shiny
-    destination: /srv/shiny-server/data-analysis-shiny
+#files:
+#  - source: data-analysis-shiny
+#    destination: /srv/shiny-server/data-analysis-shiny
 hooks:
-  AfterInstall:
+  BeforeInstall:
     - location: scripts/update
       timeout: 300
       runas: root
