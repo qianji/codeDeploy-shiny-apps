@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: data-analysis-shiny
-    destination: /srv/shiny-server
+  - source: /data-analysis-shiny
+    destination: /srv/shiny-server/data-analysis-shiny
 hooks:
   AfterInstall:
     - location: scripts/update
