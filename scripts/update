@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /srv/shiny-server
-git clone https://github.com/qianji/codeDeploy-shiny-apps
+sudo git clone https://github.com/qianji/codeDeploy-shiny-apps
