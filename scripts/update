@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /srv/shiny-server
+sudo rm -rf codeDeploy-shiny-apps
 sudo git clone https://github.com/qianji/codeDeploy-shiny-apps
